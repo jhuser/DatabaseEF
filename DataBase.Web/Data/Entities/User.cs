@@ -7,6 +7,7 @@ namespace DataBase.Web.Data.Entities
     using System.ComponentModel.DataAnnotations;
     public class User
     {
+        [Required]
         public int Id { get; set; }
         public string Name { get; set; }
 
